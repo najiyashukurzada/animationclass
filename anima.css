@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 850px;
+    margin-top: 400px;
+    border-radius: 15px;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    animation-name: anima ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: all;
+}
+
+@keyframes anima {
+    0%{background-color: blueviolet;
+        transform: rotate(90deg);}
+    50%{background-color: greenyellow;
+        transform: rotate(180deg);}
+    100%{background-color: aqua;
+        transform: rotate(270deg);}
+}
